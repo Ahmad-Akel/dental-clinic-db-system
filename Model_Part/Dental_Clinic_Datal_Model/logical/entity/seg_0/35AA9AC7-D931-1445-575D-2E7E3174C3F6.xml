@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35AA9AC7-D931-1445-575D-2E7E3174C3F6" name="Insurance">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:48:23 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="insurance_id" id="7A3BC78E-C9A3-A719-943B-4D5D6D532D47">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:48:35 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="insurance_type" id="A4BDE20C-2202-ABC3-049C-816EFD1A55E6">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:48:54 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="insurance_number" id="ADE7FECF-E87A-973B-7BC4-7C79449536DE">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:49:35 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="insurance_company_id" id="84865570-A950-843B-089A-AAA64E5931AF">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:50:53 UTC</createdTime>
+<generatorID>DFC68086-FC01-B8B9-9AC4-C98C888680BB</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<referedAttribute>B65AE35C-B348-42D2-A648-7C7A953EA394</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB89DC3D-C795-DC84-A34C-887D681586DE" name="Key_1">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:49:57 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7A3BC78E-C9A3-A719-943B-4D5D6D532D47</newElementsIDs>
+<usedAttributes>
+<attributeRef>7A3BC78E-C9A3-A719-943B-4D5D6D532D47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

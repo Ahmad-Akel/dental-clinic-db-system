@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B7D5EA2-D4E1-F1E1-04D8-B339A671E458" name="Child">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>35A3CD41-DA5C-7424-94B2-0AE181699692</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patient_id" id="189E860D-DBBB-3A9E-8A94-629E15E95D8D">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>F827CAC0-8298-8DEA-79DE-B97F430636A9</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC0860A6-9C71-3351-B5D9-111868B4F989" referredColumn="E9E9729D-3572-DAAC-8F5A-3ACC9E81EDCF"/>
+</associations>
+</Column>
+<Column name="child_id" id="AAC65088-C24E-7E8C-F06C-305DF75720F6">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>1735718C-C020-AE68-3EB3-74974304F306</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deciduous_teeth" id="76DAA88D-00B3-2B46-8AA8-2D18BB9A1BA4">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>9B099ABA-34C5-A1EF-C6FD-E326D6581BF9</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="insurance_id" id="9705EB70-FC81-2958-30F6-5E3C206BF081">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>4C192CEC-3098-0AD7-85E7-8A5E91D9FDDA</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC0860A6-9C71-3351-B5D9-111868B4F989" referredColumn="0D264E6D-DAAB-4EFE-BC15-ED1656ED4EF6"/>
+</associations>
+</Column>
+<Column name="address_id" id="B71A0586-C9EE-BA7D-4A49-1E90F970BE55">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>E3AD4F11-4FD2-08AB-7226-C795919D4B6E</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC0860A6-9C71-3351-B5D9-111868B4F989" referredColumn="756DE59C-6AD1-2D41-4BB0-24D5CED9DD54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BFD46F2-D4D0-263A-7CD5-226FD10BDF89" name="Child_PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>303EB1D5-A389-2064-D5CF-369351369771</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="189E860D-DBBB-3A9E-8A94-629E15E95D8D"/>
+<colUsage columnID="9705EB70-FC81-2958-30F6-5E3C206BF081"/>
+<colUsage columnID="B71A0586-C9EE-BA7D-4A49-1E90F970BE55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94AA9F1D-2CB0-D3B4-69CA-24DB248B4469" name="Child_child_id_UN">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>802193AB-B576-2B1F-F480-9417372AC7A7</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC65088-C24E-7E8C-F06C-305DF75720F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="120D9C25-4E9D-4F86-EF4B-37BD6D1F5972" name="Child_Patient_FK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>0BF2138C-0033-FBBE-ADAB-96C654347D1C</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="189E860D-DBBB-3A9E-8A94-629E15E95D8D"/>
+<colUsage columnID="9705EB70-FC81-2958-30F6-5E3C206BF081"/>
+<colUsage columnID="B71A0586-C9EE-BA7D-4A49-1E90F970BE55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

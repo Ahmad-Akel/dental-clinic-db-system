@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Dental_Clinic_Datal_Model" id="22152FC3-A3DE-0701-CEAD-ECE287FBFB51" version="3.5">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 03:57:33 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>22152FC3-A3DE-0701-CEAD-ECE287FBFB51</designId>
+</OSDM_Design>

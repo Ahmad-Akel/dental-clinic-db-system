@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="20290F4F-4172-EC09-B09B-3F2930913E96" name="FKArc_1">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>F2999C68-9EFC-F457-A0D0-BE53FB6F72DB</table>
+<fkeys>
+<fkeyID>AC0860A6-9C71-3351-B5D9-111868B4F989</fkeyID>
+<fkeyID>C796728C-EF01-28DC-73D8-0D71C5E04700</fkeyID>
+</fkeys>
+</FKArc>

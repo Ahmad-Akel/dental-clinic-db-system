@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="394934CE-3021-CE04-0DE7-3F59BB54E729" name="Treatment">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:19:38 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="treatment_id" id="FABCFA4C-AF39-C5FB-08C4-093F4D6C5FEC">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:19:44 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fees" id="0D6682CE-8B78-B025-C82B-715624561288">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:20:05 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medicine_name" id="69FE9957-6293-C88D-A544-24EEEE9D9307">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:20:18 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="69F75CE8-0095-4643-20A7-EA638486E69B">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:20:34 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patient_id" id="9D362FDB-4AC5-8D9F-056C-88A1DD0A3930">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:23:59 UTC</createdTime>
+<generatorID>45947910-FA23-782C-279C-08B5296A05D6</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<referedAttribute>F827CAC0-8298-8DEA-79DE-B97F430636A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doctor_id" id="0E8FDD1F-A5E4-0E97-1F4A-DDF5752BA982">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:25:26 UTC</createdTime>
+<generatorID>769D1CBD-DE87-D77E-5CB2-65354AB4A519</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="true"/>
+</engineerTo>
+<referedAttribute>4106CBBC-B03D-C7A3-8A6A-43E4A77DB833</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="448264DF-190F-3B03-2B19-7B48D99F69FB" name="Key_1">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:20:51 UTC</createdTime>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1AD82F9A-862D-5DCF-4C00-A7878DE36F38" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FABCFA4C-AF39-C5FB-08C4-093F4D6C5FEC</newElementsIDs>
+<usedAttributes>
+<attributeRef>FABCFA4C-AF39-C5FB-08C4-093F4D6C5FEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

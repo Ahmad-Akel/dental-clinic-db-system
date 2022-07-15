@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6C9A877-B556-B809-EBE5-30542A312879" name="Nurse">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>7D90948D-10F0-BE6C-9FA2-21BC8BD79E7C</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nurse_id" id="A2D457AB-3257-FE44-A677-BFFB9068A36F">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>9ECB0209-720C-2584-C3CB-2ED2A3C91CA9</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="DA0F3F2B-FD65-7AF8-EF20-D4ED1DFC322C">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>388DCCA0-90BC-68C7-994F-19FBB8564D9A</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="533FEEE1-4EE0-DB19-32BB-38C666119F46">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>F0F3C0D0-0B52-385B-6415-EDF254531D2A</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail" id="379513FA-FFF6-8412-8F21-1DB46FCBB29E">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>F8FAC43D-C685-5252-52EC-3672509BDD55</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="9B720430-E56B-1146-EE15-4780AB80698C">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>1285A73B-9EF8-ECFF-9B8B-A995C38C8221</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_department_id" id="87CDAB9B-F0E0-0763-1FFC-838639B73265">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>30AC1FE9-F9C9-7134-2412-2B162FE52D52</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="630AC122-811A-10CF-E07A-4BA5C21B5E4F" referredColumn="8AFF185B-8E70-F4BF-ED95-29988C2A2B60"/>
+</associations>
+</Column>
+<Column name="Department_Clinic_clinic_id" id="328BB041-6891-78E2-F068-E64A9EBCADB1">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>ED087518-8D74-DD98-0B96-B7E30223786A</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="630AC122-811A-10CF-E07A-4BA5C21B5E4F" referredColumn="0345ADF8-4CD6-07C8-F71B-8997E425126A"/>
+</associations>
+</Column>
+<Column name="Department_Clinic_address_id" id="BF9674E2-FDFA-2137-174E-1ECCE8960F77">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>78C2C92F-A632-F8A0-EDF9-2B2974AD7ABE</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="630AC122-811A-10CF-E07A-4BA5C21B5E4F" referredColumn="2C149ABD-DB7E-0C81-3406-5B404F1FC972"/>
+</associations>
+</Column>
+<Column name="Address_address_id" id="8ED5452D-0AD3-F498-65C6-E095E37AE26D">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>94039071-AB0B-F6A4-C9E4-CA03945825CD</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09A0793F-D0E9-AFCB-3890-80949201A452" referredColumn="1344D851-175C-544D-357F-6668E0D96824"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="914D102F-D4BB-CCC0-4A51-200FC212373E" name="Nurse_PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>8915A524-98A8-B3FF-5A7D-82E9F53567D0</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2D457AB-3257-FE44-A677-BFFB9068A36F"/>
+<colUsage columnID="87CDAB9B-F0E0-0763-1FFC-838639B73265"/>
+<colUsage columnID="328BB041-6891-78E2-F068-E64A9EBCADB1"/>
+<colUsage columnID="BF9674E2-FDFA-2137-174E-1ECCE8960F77"/>
+<colUsage columnID="8ED5452D-0AD3-F498-65C6-E095E37AE26D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECD969E5-1403-4860-F761-D3B0BFE9F533" name="Nurse_Department_FK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>E9DCA436-03F8-22B6-3FB6-F9A0D8C28FD9</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87CDAB9B-F0E0-0763-1FFC-838639B73265"/>
+<colUsage columnID="328BB041-6891-78E2-F068-E64A9EBCADB1"/>
+<colUsage columnID="BF9674E2-FDFA-2137-174E-1ECCE8960F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5819D23-2950-DE77-1037-9838EE510311" name="Nurse_Address_FK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2021-11-07 04:32:42 UTC</createdTime>
+<generatorID>0DF2FAB1-910D-C2B2-30A8-2D3821C46ED8</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ED5452D-0AD3-F498-65C6-E095E37AE26D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

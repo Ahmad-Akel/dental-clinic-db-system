@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58EDD576-A2A3-02FD-728D-651760EE1DDF" name="Insurance">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:52:03 UTC</createdTime>
+<generatorID>35AA9AC7-D931-1445-575D-2E7E3174C3F6</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="insurance_id" id="54F2028D-2202-95F6-E1B4-1F1EFC2418F5">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:52:03 UTC</createdTime>
+<generatorID>7A3BC78E-C9A3-A719-943B-4D5D6D532D47</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="insurance_type" id="A1CED37E-E03A-A907-2FCC-7A3449CD58DC">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:52:03 UTC</createdTime>
+<generatorID>A4BDE20C-2202-ABC3-049C-816EFD1A55E6</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="insurance_number" id="B9E9742C-E6CB-5216-D416-BC5C3B7DF464">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:52:03 UTC</createdTime>
+<generatorID>ADE7FECF-E87A-973B-7BC4-7C79449536DE</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance_Company_insurance_id" id="6BE18C42-A63A-28C8-677D-A6E5A0C4E389">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:52:03 UTC</createdTime>
+<generatorID>84865570-A950-843B-089A-AAA64E5931AF</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5D1BABE-229D-964B-BC7F-21DD399B5CF9" referredColumn="51AFF6DA-D2E2-C42B-3AA2-A74C5D14BBB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18EE05C4-0743-6230-003F-AABA17063CE5" name="Insurance_PK">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:52:03 UTC</createdTime>
+<generatorID>FB89DC3D-C795-DC84-A34C-887D681586DE</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F2028D-2202-95F6-E1B4-1F1EFC2418F5"/>
+<colUsage columnID="6BE18C42-A63A-28C8-677D-A6E5A0C4E389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45D78987-15BE-FB1D-6DB2-8663597D5646" name="Insurance_Insurance_Company_FK">
+<createdBy>Ahmad.Akel</createdBy>
+<createdTime>2021-12-09 18:52:03 UTC</createdTime>
+<generatorID>DFC68086-FC01-B8B9-9AC4-C98C888680BB</generatorID>
+<ownerDesignName>Dental_Clinic_Datal_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE18C42-A63A-28C8-677D-A6E5A0C4E389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
